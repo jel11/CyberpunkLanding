@@ -86,3 +86,22 @@ h3 {
   width: 542px;
   padding: 2.9rem 0;
 }
+.states {
+  display: flex;
+  padding-bottom: 4rem;
+}
+.header-footer__item {
+  padding-right: 3.2rem;
+}
+.header-footer__title {
+  padding-bottom: 1.7rem;
+  padding-top: 12.2rem;
+}
+.header-footer__item::before {
+  content: "";
+  display: block;
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 165.3px;
+  height: 1px;
+  margin-bottom: 1.7rem;
+}
