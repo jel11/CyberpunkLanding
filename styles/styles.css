@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+html {
+  font-size: 10px;
+  font-family: "Public Sans";
+  color: #fff;
+}
+article {
+  font-family: "Public Sans";
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+}
+h1 {
+  font-family: "Libre Baskerville";
+  font-size: 3.8rem;
+  line-height: 4rem;
+}
+h2 {
+  font-family: "Libre Baskerville";
+  font-size: 3rem;
+  line-height: 4rem;
+}
+h3 {
+  font-family: "Libre Baskerville";
+  font-size: 2.2rem;
+  line-height: 4rem;
+}
+.header {
+  background-image: url(../img/IMAGE.jpg);
+  margin: 0 auto;
+  width: 1280px;
+}
+.wrapper {
+  width: 1152px;
+  margin: 0 auto;
+}
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.btn {
+  padding: 17px 33px;
+  border-radius: 80px;
+  color: #fff;
+}
+.btn_dark {
+  border: solid 1px rgba(255, 255, 255, 0.3);
+  background-color: transparent;
+  display: inline-block;
+}
+.btn_cyan {
+  padding: 16px 32px;
+  background-color: #00665f;
+  color: #fff;
+}
+.top-header_mt {
+  padding-top: 2.6rem;
+}
+.top-header-menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.top-header-menu__item {
+  font-size: 1.3rem;
+  color: #fff;
+  text-decoration: none;
+  padding-right: 5.1rem;
+}
+.top-header-menu__item:last-child {
+  padding-right: 0;
+}
+.top-header__logo {
+  display: block;
+}
+.header-content {
+  padding-top: 14.6rem;
+}
+.header-content__title {
+  width: 535px;
+}
+.header-content__text {
+  width: 542px;
+  padding: 2.9rem 0;
+}
