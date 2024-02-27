@@ -23,7 +23,7 @@ h2 {
   line-height: 4rem;
 }
 h3 {
-  font-family: "Libre Baskerville";
+  font-family: "Public Sans";
   font-size: 2.2rem;
   line-height: 4rem;
 }
@@ -104,4 +104,110 @@ h3 {
   width: 165.3px;
   height: 1px;
   margin-bottom: 1.7rem;
+}
+.main-section {
+  display: flex;
+  flex-direction: column;
+  color: #003331;
+}
+.main-section__title {
+  padding-top: 12rem;
+  text-align: center;
+}
+.main-section__circle {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  background-color: #014c48;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.9rem;
+  color: #fff;
+  font-family: "Public Sans";
+}
+.main-section-articles {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-top: 5.7rem;
+}
+.main-section__article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 1rem;
+}
+.delimiter {
+  display: block;
+  width: 176px;
+  height: 1px;
+  background-color: rgba(53, 83, 98, 0.2);
+}
+.human-section {
+  color: #003331;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f7f8f8;
+  width: 1280px;
+  margin: 0 auto;
+  padding: 0 6.4rem;
+}
+.human-section_mt197 {
+  margin-top: 19.7rem;
+}
+.human-section-img {
+  display: flex;
+  justify-content: space-between;
+  padding: 8rem 0;
+}
+.human-section__image-woman {
+  width: 23.5rem;
+  height: 26.6rem;
+  padding-right: 0.8rem;
+}
+.human-section__image-grandpa {
+  width: 31.7rem;
+  height: 26.2rem;
+}
+.human-section-content {
+  padding-right: 14.3rem;
+  padding-top: 11.3rem;
+}
+.human-section__text {
+  color: rgba(53, 83, 98, 0.8);
+  padding-top: 1.3rem;
+}
+.human-section__btn {
+  color: #00413e;
+  border: solid 1px rgba(53, 83, 98, 0.2);
+  margin-top: 3.7rem;
+}
+.partner-logo-section {
+  display: flex;
+  color: rgba(53, 83, 98, 0.8);
+}
+.partner-logo-section_mt16 {
+  margin-top: 1.6rem;
+}
+.logo-article {
+  display: inline-block;
+  padding-right: 3.2rem;
+}
+.logo-article__img {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+.partner-logo__name {
+  padding-left: 0.8rem;
+  display: inline-block;
+}
+.logo-article::before {
+  content: " ";
+  width: 165px;
+  height: 1px;
+  display: block;
+  background-color: rgba(53, 83, 98, 0.3);
+  margin-bottom: 1.6rem;
 }
